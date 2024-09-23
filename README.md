@@ -1,2 +1,1 @@
-Appunti personali corso triennale Informatica
 lezzolezzosudicio
