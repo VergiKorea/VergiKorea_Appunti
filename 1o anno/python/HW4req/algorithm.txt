@@ -1,0 +1,36 @@
+Funzione load_file(filename: str)
+Questa funzione legge un file di testo specificato dal nome filename e restituisce il suo contenuto come una stringa.
+
+- Utilizza open(filename, encoding='utf-8') per aprire il file specificato in modalità di lettura e con codifica UTF-8 per gestire caratteri speciali.
+- with open(...) as f è usato per garantire che il file venga chiuso correttamente dopo la lettura.
+- f.read() legge l'intero contenuto del file e lo restituisce come stringa.
+
+
+Funzione len_spartito(spartito: str)
+Questa funzione calcola la lunghezza del testo delle note musicali presenti nel file di spartito Tarahumara:
+
+- load_file(spartito) legge il contenuto del file di spartito specificato come stringa.
+- split('\n') divide la stringa in linee.
+- for line in ... attraversa ogni linea del testo.
+- for char in line[::-1]: attraversa ogni carattere all'interno della linea, ma in ordine inverso.
+- Viene contata la lunghezza escludendo i caratteri + e -.
+
+Funzione convert(spartito: str)
+Questa funzione converte la notazione Tarahumara delle note musicali nella notazione degli Umkansaniani:
+
+- Legge il contenuto del file di spartito Tarahumara specificato.
+- Itera attraverso ciascun carattere del testo del file (linea per linea, da destra a sinistra).
+- Converte i numeri Tarahumara in lettere secondo la mappatura definita nel dizionario conv_dict in una lista contenente le singole note.
+- Concatena i caratteri risultanti in un'unica stringa che rappresenta la versione tradotta delle note musicali.
+
+Funzione Umkansanize(source_root:str, target_root:str) -> dict[str,int]
+Questa è la funzione principale che traduce le canzoni Tarahumara in notazione Umkansanian:
+
+- Crea la cartella target_root se non esiste già.
+- Legge il file index.txt dalla cartella source_root che contiene i titoli delle canzoni Tarahumara e i percorsi dei file.
+- Per ogni riga nel file index.txt, interpreta i titoli e i percorsi dei file.
+- Determina la lunghezza di ciascuna canzone Tarahumara usando len_spartito.
+- Traduce la canzone in notazione Umkansanian utilizzando convert e scrive il risultato in un nuovo file nella struttura delle cartelle specificata in target_root.
+- Costruisce un dizionario (index_out) che associa il titolo delle canzoni Umkansanian con la loro lunghezza totale (somma delle durate delle note e delle pause).
+- Ordina il dizionario in base alla lunghezza decrescente delle canzoni e, in caso di parità di lunghezza, in ordine alfabetico ascendente dei titoli.
+- Crea un nuovo file index.txt nella cartella target_root con il dizionario ordinato e lo restituisce.

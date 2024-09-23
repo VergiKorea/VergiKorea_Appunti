@@ -1,0 +1,6 @@
+read -sv counter.v
+hierarchy -top counter 
+proc; opt; techmap; opt
+#aigmap; 
+#write_verilog synth.v
+write_json counter.js

@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"a7b1244cbfeec0f6","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726024819.png","x":100,"y":-420,"width":434,"height":220},
+		{"id":"d1df7e860277ccab","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726024727.png","x":100,"y":-160,"width":434,"height":803},
+		{"id":"f5a7aa33cf37fa09","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726024837.png","x":-360,"y":-420,"width":440,"height":848},
+		{"id":"d74df8259f4e73c6","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726025023.png","x":100,"y":880,"width":460,"height":1167},
+		{"id":"f02ae6424052db75","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726025059.png","x":560,"y":880,"width":460,"height":971},
+		{"id":"d9994e29b97df8c1","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726024933.png","x":-360,"y":880,"width":460,"height":794},
+		{"id":"1f8e693a992cea11","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726025150.png","x":1020,"y":880,"width":460,"height":1077},
+		{"id":"360b172afe9e6e61","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726025219.png","x":1480,"y":880,"width":460,"height":1059},
+		{"id":"2dd9a7ae51f6aea4","type":"file","file":"METODI MATEMATICI/ESERCIZI/Pasted image 20240726025232.png","x":1940,"y":880,"width":460,"height":828}
+	],
+	"edges":[]
+}

@@ -1,0 +1,4 @@
+ex4/honchos/finny.txt	9481
+ex4/honchos/crescendos/sensitisation.txt	6212
+ex4/honchos/interlineation.txt	3295
+ex4/honchos/analysable.txt	1919

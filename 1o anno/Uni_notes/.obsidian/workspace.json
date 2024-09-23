@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "f878fc5bb4b62ff6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0baaaf9f9afb36fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6577f76d51c5f006",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "INTRODUZIONE AGLI ALGORITMI/ESERCIZI.canvas",
+                "viewState": {
+                  "x": 301.41317104463405,
+                  "y": 3560.30397743469,
+                  "zoom": 0.3333333333333334
+                }
+              }
+            }
+          },
+          {
+            "id": "83a81e01139a50bc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "METODI MATEMATICI/ESERCIZI INDUZIONE.md"
+              }
+            }
+          },
+          {
+            "id": "231e4312ced9bcf5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "CALCOLO INTEGRALE/SERIE NUMERICHE.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4276c7a7af50f4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "371cd74fbd5925aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "844b4d0f25c6cc72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "c4d2f1f369e04d3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee1c297c9f9cab3d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b649a2182f824ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb8f8357282725a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b42b86ee7297eb6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CALCOLO INTEGRALE/SERIE NUMERICHE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e36f3bcc92e2fa3d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CALCOLO INTEGRALE/SERIE NUMERICHE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1fec4183d7d814a2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fb27e0a9623cb70f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CALCOLO INTEGRALE/SERIE NUMERICHE.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "231e4312ced9bcf5",
+  "lastOpenFiles": [
+    "CALCOLO INTEGRALE/SERIE GEOMETRICHE.md",
+    "PROGETTAZIONE DI SISTEMI DIGITALI/SISTEMA NUMERICO.md",
+    "METODI MATEMATICI/ESERCIZI INDUZIONE.md",
+    "INTRODUZIONE AGLI ALGORITMI/ESERCIZI.canvas",
+    "PROGETTAZIONE DI SISTEMI DIGITALI",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted image 20240726042708.png",
+    "INTRODUZIONE AGLI ALGORITMI/ORDINAMENTI LINEARI.md",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726042235_422.png",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726042235_401.png",
+    "INTRODUZIONE AGLI ALGORITMI/ALBERI.md",
+    "INTRODUZIONE AGLI ALGORITMI/ESERCIZI.md",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726042235_381.png",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726042235_363.png",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726042235_340.png",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726042053_458.png",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726041758_729.png",
+    "Pasted Image 20240726041952_113.png",
+    "INTRODUZIONE AGLI ALGORITMI/DIZIONARI 2.md",
+    "INTRODUZIONE AGLI ALGORITMI/pngs/Pasted Image 20240726041743_720.png",
+    "INTRODUZIONE AGLI ALGORITMI/DIZIONARI.md",
+    "INTRODUZIONE AGLI ALGORITMI/STRUTTURE DATI.md",
+    "INTRODUZIONE AGLI ALGORITMI/ORDINAMENTI 'COMPLESSI'.md",
+    "INTRODUZIONE AGLI ALGORITMI/ORDINAMENTO.md",
+    "INTRODUZIONE AGLI ALGORITMI/RICERCA.md",
+    "INTRODUZIONE AGLI ALGORITMI/RICORSIONE.md",
+    "INTRODUZIONE AGLI ALGORITMI/ES. EQ. DI RICORRENZA.md",
+    "INTRODUZIONE AGLI ALGORITMI/EQ. DI RICORRENZA.md",
+    "INTRODUZIONE AGLI ALGORITMI/COSTO COMPUTAZIONALE.md",
+    "INTRODUZIONE AGLI ALGORITMI/NOTAZIONE ASINTOTICA.md",
+    "CALCOLO INTEGRALE/ESERCIZI SERIE.md",
+    "INTRODUZIONE AGLI ALGORITMI/pngs",
+    "INTRODUZIONE AGLI ALGORITMI/INTRODUZIONE.md",
+    "INTRODUZIONE AGLI ALGORITMI/Drawing 2024-07-26 02.54.01.excalidraw.md",
+    "METODI MATEMATICI/ESERCIZI/Index.canvas",
+    "INTRODUZIONE AGLI ALGORITMI",
+    "CALCOLO INTEGRALE/INTEGRAZIONI 2 (TEORIA).md",
+    "METODI MATEMATICI/ESERCIZI",
+    "CALCOLO INTEGRALE/INTEGRAZIONI 1 (TEORIA).md",
+    "CALCOLO INTEGRALE/QUIZ PRE-ESONERO.md",
+    "CALCOLO INTEGRALE/QUIZ 3.md",
+    "CALCOLO INTEGRALE/QUIZ 2.md",
+    "CALCOLO INTEGRALE/QUIZ 1.md",
+    "METODI MATEMATICI",
+    "CALCOLO INTEGRALE",
+    "Excalidraw",
+    "Vecchi Appunti/CALCOLO INTEGRALE",
+    "SERIE NUMERICHE.pdf",
+    "PDF"
+  ]
+}

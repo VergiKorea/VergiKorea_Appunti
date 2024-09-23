@@ -1,0 +1,36 @@
+decode_digits(digits: List[int], bases: List[int]):
+
+Prendendo in input le due liste 'bases' e 'digits' (rispettivamente una lista delle basi con le quali verranno rappresentate le cifre della seconda lista):
+- variabile 'b10' (base 10) dichiarata uguale a 0
+- in un ciclo for (contatore 'i') ripetuto per la lunghezza di 'digits' ('bases' sarebbe andato comunque bene):
+	- al valore 'b10' viene aggiunto il risultato della moltiplicazione tra l'elemento 'i' della lista 'digits' e l'elemento 'i' della lista 'bases' elevato alla 'i'
+	*ripeti il ciclo*
+(questo ciclo for alla fine non è altro che un applicazione del semplice algoritmo di conversione da base N a base 10 di un valore, quindi: valore * base N ^ index)
+- alla fine del ciclo verrà restituito il valore finale 'b10'
+
+
+generate_digits(bases : List[int] )
+
+(l'obiettivo sarebbe creare una funzione che genera tutti i possibili valori ottenibili da quelle determinate basi, per farlo basta basarsi sulla logica di numerazione su qualsiasi base, per esempio, in base 2, i valori a 3 cifre possono essere: 000, 001, 010, 011, 100, 101, 110, 111. Aggiungendo ogni volta 1 alla cifra meno significativa, e scalando di 1 la cifra seguente (e quella dopo, e quella dopo ancora...) non appena quella meno significativa supera il valore N-1 (in questo caso 2-1=1))
+
+Prendendo in input la lista 'bases':
+
+-vengono dichiarate: una lista vuota 'combinazioni', una variabile 'num_combinazioni' uguale a 1 e una lista 'combinazione' contenente tanti 0 quanto il numero di basi (es. bases = [2,5] | combinazione = [0,0])
+-in un ciclo for della lista 'bases': ogni valore di 'bases' viene moltiplicato per 'num_combinazioni', risultando nel numero finale di combinazioni
+
+-in un ciclo while (dove verranno inserite nella lista 'combinazioni' tutte le possibili combinazioni di numeri, alterazioni della lista 'combinazione'), che sarà interrotto quando la lunghezza di 'combinazioni' sarà uguale a 'num_combinazioni':
+	-viene aggiunta alla lista 'combinazioni' una copia della lista 'combinazione'
+	-viene aggiunto 1 al primo valore nella lista 'combinazione'
+	-in un ciclo for (contatore 'i') ripetuto per la lunghezza di 'bases':
+		-se un valore all'interno della singola combinazione (lista 'combinazione') supera il raggio di valori dato dalla sua base, torna a 0, aumentando di 1 il valore seguente (se è presente)
+	*ripeti il ciclo*
+-restituisci la lista completa 'combinazioni'
+
+(Quindi, prendendo come esempio una lista bases = [3,3], verrà creata una lista combinazione = [0,0], a cui verrà aggiunto costantemente 1 al primo elemento: [0,0] ==> [1,0] ==> [2,0] ==> [0,1] ==> [1,1] ==> [2,1] ... tutte queste variazioni della lista 'combinazione' verranno aggiunte a 'combinazioni')
+
+
+find_doubles(bases : List[int]):
+
+Per trovare le combinazioni che appaiono più volte data una lista 'bases' (in questo caso prima convertite in base 10 con la funzione decode_digits() creata precedentemente), è sufficiente:
+-tramite un ciclo for, trasferire una ad una le combinazioni ad una lista 'comb_int'. Se durante il ciclo si trova un valore già presente in 'comb_int', significa che viene rappresentato più di una volta, quindi andrà inserito in una lista a parte 'comb_int_doppi'
+-restituire la lista 'comb_int_doppi' convertita in un set (per evitare valori che si ripetono)

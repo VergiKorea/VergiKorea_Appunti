@@ -1,0 +1,6 @@
+read -sv carryadd.v
+hierarchy -top carryadd 
+proc; opt; techmap; opt
+#aigmap; 
+#write_verilog synth.v
+write_json carryadd.js

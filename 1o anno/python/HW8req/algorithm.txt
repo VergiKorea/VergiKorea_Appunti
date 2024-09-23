@@ -1,0 +1,20 @@
+decrypt(text, pharaohs_cypher)
+
+-in ingresso vengono dati la stringa text da decifrare e il dizionario cifrario pharaohs_cypher{sequenza da togliere: sottostringa}
+-dichiara la lista list_decrypt che conterrà le possibili stringhe convertite
+-per ogni chiave in pharaos_cypher:
+	-for i da 0 alla lunghezza di text meno la lunghezza della chiave:
+		-dichiara la substring di text indexato da i a i + la lunghezza della chiave + 1 (un carattere di lunghezza in più rispetto alla chiave)
+		-dichiara mem_key, una lista contenente tutti i caratteri della chiave
+		-controllando ogni carattere nella sottostringa, se più di un solo carattere è presente in entrambe le stringhe (se il carattere è presente, si toglie dalla lista momentanea mem_key):
+		-si sostituisce la parte della stringa indexata con l'altra stringa associata alla chiave
+		-si usa in maniera ricorsiva la stessa funzione decrypt per ottenere la lista delle stringhe con caratteri sostituiti
+		-se la lista è vuota appendi a list_decrypt la prima stringa con valore sostituito, altrimenti aggiungi tutti i valori della lista di ritorno dalla ricorsione
+-ritorna list_decrypt convertito in set (elimina i doppi valori)
+
+
+pharaohs_revenge(encrypted_text : str, pharaohs_cypher : dict[str,str]) -> set[str]
+-usa decrypt sui dati in entrata encrypted_text e pharaohs_cypher per avere la lista delle possibili stringhe convertite
+-ritorna il set contenente la stringa (o stringhe) con lunghezza minore
+		
+		
